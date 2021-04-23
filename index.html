@@ -115,7 +115,7 @@
         //});
         //const db = await vca.loadSqliteDB(SQL, "./static/data/data.db")
         const ip = "35.172.137.148"
-        const db = vca.RemoteDB({url: `http://${ip}:8000/query`})
+        const db = vca.RemoteDB({url: `https://${ip}:8000/query`})
         vca.app = await vca.App({db, containerid: "views"})
         await vca.loadDemo(vca.app);
 
