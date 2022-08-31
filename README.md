@@ -1,6 +1,6 @@
 # viewcompositionalgebra.github.io
 
-<img src="./static/images/vca.png/" />
+<img src="./static/images/vca.png/"  style="width:250px;"/>
 
 Website for View Composition Algebra paper
 
